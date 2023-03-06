@@ -7,6 +7,9 @@ var navbar = document.getElementById("navbar"),
 function myFunction() {
     1 < window.scrollY ? navbar.classList.add("sticky") : navbar.classList.remove("sticky")
 }
+
+/* --------------------------------------------------------------------------- */
+
 var elementBody = document.querySelector("body"),
     btnAumentar = document.querySelector("#btnaumentar"),
     btnDiminuir = document.querySelector("#btndiminuir"),
