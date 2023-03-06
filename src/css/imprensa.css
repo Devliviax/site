@@ -12,7 +12,9 @@ header {
 .area_geral {
     width: 100%;
     display: flex;
-    flex-direction: column
+    flex-direction: column;
+    margin-bottom: 100px;
+    
 }
 
 .area_geral>img {
@@ -66,14 +68,14 @@ header {
     position: absolute;
     left: 120px;
     top: -5px;
-    z-index: -2
+    z-index: -2;
 }
 
 .area_text-1 {
     width: 400px;
     height: 350px;
     position: absolute;
-    left: 750px;
+    left: 1020px;
     top: 150px
 }
 

@@ -1,10 +1,12 @@
-#img {
-    width: 100%
-}
-
+#img{
+    width: 100%;
+} 
 header {
-    background-image: url(../img/Group\ 130.png);
-    height: 170vh
+    height: 1px;
+}
+.img_top {
+    position: relative;
+    z-index: -5;
 }
 
 .container {

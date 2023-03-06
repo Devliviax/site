@@ -17,7 +17,7 @@
 
 #navbar {
     overflow: hidden;
-    transition: .6s
+    transition: .6s;
 }
 
 .sticky {
@@ -25,7 +25,8 @@
     top: 0;
     width: 100%;
     z-index: 2;
-    background-color: #fff
+    background-color: #fff;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
 }
 
 body {
